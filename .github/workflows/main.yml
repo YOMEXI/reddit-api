@@ -9,10 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-   steps:
+    steps:
       - uses: actions/checkout@v2
       - name: build react file
-          run: npm build
+          run:" npm build "
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
