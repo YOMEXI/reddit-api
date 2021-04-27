@@ -1,0 +1,62 @@
+/* form css
+*/
+.mybr {
+  border-radius: 79px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+textarea:focus,
+input:focus {
+  outline: none !important;
+}
+.no-border {
+  outline: none !important;
+}
+
+.bg {
+  height: 100%;
+  background: url("/img/home3.jpg") no-repeat center center/cover;
+}
+.bg2 {
+  height: 100vh;
+  background: url("/img/home3.jpg") no-repeat center center/cover;
+}
+
+.po {
+  cursor: pointer !important;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-weight: bolder !important;
+}
+
+/* a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+} */
+
+/* vote */
+
+.vt-color1:hover {
+  color: rgb(3, 106, 175);
+}
+
+.vt-color2:hover {
+  color: rgb(218, 39, 7);
+}
+
+/* popularSub */
+.po2 {
+  border-radius: 50px !important;
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'peddit';
+  src:  url('fonts/peddit.eot?7evt4v');
+  src:  url('fonts/peddit.eot?7evt4v#iefix') format('embedded-opentype'),
+    url('fonts/peddit.ttf?7evt4v') format('truetype'),
+    url('fonts/peddit.woff?7evt4v') format('woff'),
+    url('fonts/peddit.svg?7evt4v#peddit') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'peddit' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.icon-arrow-down2:before {
+  content: "\ea3e";
+}
